@@ -24,6 +24,14 @@ angular.module('starter.controllers', [])
 
   .controller('CustomCtrl' , function($scope) {
 
+
+
+    $scope.doRefresh = function() {
+      var newId = $scope.items[0].id - 1;
+      $scope.items.unshift({ id: newId });
+      $scope.$broadcast('scroll.refreshComplete');
+    };
+
     $scope.items = [
       { title: 'title', id: 1 },
       { title: 'title', id: 2 },
