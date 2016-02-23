@@ -3,6 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/geo/platforms" />
+      <excludeFolder url="file://$MODULE_DIR$/geo2/platforms" />
       <excludeFolder url="file://$MODULE_DIR$/myApp/platforms" />
     </content>
     <orderEntry type="inheritedJdk" />
